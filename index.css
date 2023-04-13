@@ -1,0 +1,191 @@
+
+#Food-Event{
+    font-size: 35px;
+    color: black;
+}
+#kitchen{
+    background-color: black;
+}
+.began{
+    font-size: 45px;
+}
+.navbar{
+    margin-left: 180px;
+}
+.navbar-nav li{
+    padding-left: 50px;
+}
+#aa:hover{
+    color: red;
+}
+#Follow{
+    font-size: 30px;
+   margin-left: 25px;
+}
+#social-media span{
+    margin-left: 25px;
+    align-items: center;
+}
+#food-pic-special{
+    margin-left: -40px;
+}
+#arrow{
+    color: white;
+    right: 10px;
+}
+#offer{
+    height: 100px;
+    width: 130px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow:  var(--shd,0 1px 4px rgb(225, 159, 35,0.6));
+    background-color: rgb(225, 159, 35);
+}
+#Different{
+    padding: 10%;
+}
+@media screen and (max-width: 390px){
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        margin-left: 0px;
+    }
+    #button-icon{
+        display: flex;
+        justify-content: center;
+    }
+    #space-black{
+        background-color: black;
+        height: 900px;
+        width: 100%;
+        margin-top: 80px;
+        margin-left: -10px;
+    }
+    #social-media span{
+        margin-left: 25px;
+        align-items: center;
+    }
+    #arrow{
+        color: white;
+        right: 10px;
+    } 
+}
+@media screen and (max-width: 840px){  
+    #Us{
+        font-size: 30px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    #mmm{
+        margin-left: -40px;
+   }
+   #Touch{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+   }
+   .began{
+        font-size: 25px;
+    }
+    .navbar{
+        margin-left: 0px;
+    }
+    #Us-Different{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 400px;
+        color: white;
+        font-size: 35px;
+    }
+    #special{
+        position: absolute;
+        left: 700px;
+        bottom: -15px;
+        background-color: orange;
+        border-radius: 50px;
+        overflow: auto ;
+        box-shadow: 10px;
+    }
+    #lblAbout{
+        margin-left: -30px;
+        background-color: black;
+    }
+    #Jessica{
+        padding: 35px;
+    }
+    #Jessica div{
+        padding: 15px;
+    }
+    #arrow{
+        color: white;
+        right: 10px;
+    }
+ 
+}
+@media screen and (min-width: 1200px){
+    .Nav-ttop{
+        margin-top: 85px;
+    }
+    #footer-container{
+        padding: 105px;
+    }
+    #Follow{
+        margin-top: 50px;
+        margin-left: 125px;
+        font-size: 60px;
+    }
+    #Wix{
+        margin-top: 45px;
+    }
+    #social-media{
+        margin-top: 50px;
+    }
+    #social-media span{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    #social-media span:hover{
+        color: brown;
+        transform: skewX(30%);
+    }
+    #arrow:hover{
+        color: red;
+    }
+
+    #offer{
+        position: absolute;
+        margin-left: 850px;
+        border-radius: 50px;
+        background-color: rgb(225, 159, 35);
+    }
+    #mmm{
+        margin-top: -400px;
+    }
+    #Us{
+        font-size: 40px;
+        padding-top: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    /* .began{
+        font-size: 45px;
+    } */
+    #Jessica{
+        padding: 55px;
+    }
+    #Jessica div{
+        padding: 45px;
+    }
+    #Touch{
+        font-size: 35px;
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+}
